@@ -1,2 +1,70 @@
-# Portfolio-page
-My portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruturaj Chavan - F1 Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ruturaj Chavan</h1>
+        <p>Front-End Developer | F1 Enthusiast</p>
+        <button id="darkModeToggle">Dark Mode</button>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Passionate front-end developer with a love for web design and Formula 1. Always learning and improving!</p>
+            <img src="la ferrari.jpg" alt="Formula 1 Car" class="rounded">
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Java</span>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="Ferrarif1.jpg" alt="F1 Dashboard">
+                    <h3>F1 Live Dashboard</h3>
+                    <p>A real-time Formula 1 race tracker using JavaScript and APIs.</p>
+                </div>
+                <div class="project">
+                    <img src="Ferrarilemans.jpg" alt="Race Highlights">
+                    <h3>F1 Highlights Gallery</h3>
+                    <p>A website showcasing the best moments from F1 races.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="ruturaj.rpc@gmail.com">ruturaj@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourlinkedin" target="_blank">linkedin.com/in/yourlinkedin</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Ruturaj Chavan | Powered by F1 Passion 🏎️</p>
+    </footer>
+</body>
+</html>
