@@ -126,7 +126,10 @@ nav a:hover {
     background: white;
     color: #ff1e00;
 }
-
+.dark-mode .project {
+    background: var(--background-dark);
+    color: var(--text-dark);
+}
 /* ======= Footer ======= */
 footer {
     text-align: center;
